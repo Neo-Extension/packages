@@ -1,0 +1,21 @@
+{
+  "extensions": [
+    {
+      "name": "Rubeus",
+      "type": "assembly",
+      "download_url": "https://github.com/sliverarmory/Rubeus",
+      "version": "0.0.25",
+      "help": "C# toolset for raw Kerberos interaction and abuses",
+      "is_dotnet": true
+    },
+     {
+      "name": "SharPersist",
+      "type": "assembly",
+      "download_url": "https://github.com/sliverarmory/SharPersist",
+      "version": "0.0.2",
+      "help": "Windows persistence toolkit",
+      "is_dotnet": true
+    }
+  ]
+}
+
