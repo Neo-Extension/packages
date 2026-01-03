@@ -1,7 +1,7 @@
 {
   "extensions": [
     {
-      "name": "Rubeus",
+      "name": "rubeus",
       "type": "assembly",
       "download_url": "https://github.com/sliverarmory/Rubeus",
       "version": "0.0.25",
@@ -9,11 +9,35 @@
       "is_dotnet": true
     },
      {
-      "name": "SharPersist",
+      "name": "sharpersist",
       "type": "assembly",
       "download_url": "https://github.com/sliverarmory/SharPersist",
       "version": "0.0.2",
       "help": "Windows persistence toolkit",
+      "is_dotnet": true
+    },
+    {
+      "name": "seatbelt",
+      "type": "assembly",
+      "download_url": "https://github.com/sliverarmory/Seatbelt",
+      "version": "0.0.6",
+      "help": "Perform security oriented host-survey safety-checks",
+      "is_dotnet": true
+    },
+    {
+      "name": "inline-execute-assembly",
+      "type": "bof",
+      "download_url": "https://github.com/sliverarmory/InlineExecute-Assembly",
+      "version": "0.0.1",
+      "help": "BOF for in process .NET assembly execution",
+      "is_dotnet": false
+    },
+    {
+      "name": "patchit",
+      "type": "bof",
+      "download_url": "https://github.com/sliverarmory/BOF-patchit",
+      "version": "0.0.1",
+      "help": "Patch, check and revert AMSI and ETW for x64 process",
       "is_dotnet": true
     }
   ]
